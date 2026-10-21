@@ -19,13 +19,14 @@ jobs:
           dotnet-version: |
             8.0.x
             10.0.x
-      - run: dotnet build -c Release
-      - run: dotnet test -c Release --no-build
-      - name: Pack
+      - name: Version
+        # A v* tag is the release version (v0.1.0 -> 0.1.0); any other build is a CI prerelease.
         run: |
-          version=${GITHUB_REF_NAME#v}
-          if [[ "$GITHUB_REF" != refs/tags/v* ]]; then version="0.0.0-ci.${GITHUB_RUN_NUMBER}"; fi
-          dotnet pack -c Release --no-build -o artifacts -p:Version=$version
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then version="${GITHUB_REF_NAME#v}"; else version="0.0.0-ci.${GITHUB_RUN_NUMBER}"; fi
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+      - run: dotnet build -c Release -p:Version=$VERSION
+      - run: dotnet test -c Release --no-build
+      - run: dotnet pack -c Release --no-build -o artifacts -p:Version=$VERSION
       - uses: actions/upload-artifact@v4
         with:
           name: packages
