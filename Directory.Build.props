@@ -13,8 +13,8 @@
     <Authors>Matt Jarvis</Authors>
     <Copyright>Copyright (c) 2026 Matt Jarvis</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/OWNER/BrotherRaster</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/OWNER/BrotherRaster</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/mattj23/BrotherRaster</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mattj23/BrotherRaster</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>brother;label;printer;ql;p-touch;raster;ql-810w;pt-p750w</PackageTags>
     <VersionPrefix>0.1.0</VersionPrefix>
