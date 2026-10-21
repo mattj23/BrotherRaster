@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <RootNamespace>BrotherRaster.Skia</RootNamespace>
+    <Description>SkiaSharp helpers for BrotherRaster: draw a label on a canvas sized for a QL roll or a P-touch tape, turn it into a 1-bit LabelBitmap (threshold or Floyd–Steinberg dither), and read or write PNG previews. Add the SkiaSharp native assets package for your platform.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- IBM Plex Sans Bold, SIL Open Font License 1.1 (Fonts/OFL-IBMPlex.txt). -->
+    <EmbeddedResource Include="Fonts/IBMPlexSans-Bold.ttf" LogicalName="BrotherRaster.Skia.Fonts.IBMPlexSans-Bold.ttf" />
+    <None Include="Fonts/OFL-IBMPlex.txt" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../BrotherRaster/BrotherRaster.csproj" />
+  </ItemGroup>
+
+</Project>

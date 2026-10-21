@@ -1,0 +1,12 @@
+{
+  "printer": "QL-810W fw 1.22",
+  "captured": "2026-09-25",
+  "source": "SNMPv1 public + web /general/status.html",
+  "state": "powered-off",
+  "note": "No network presence. Cold boot to READY/9100 open took ~77 s (ping at ~47 s).",
+  "values": {
+    "snmp": "no response (timeout)",
+    "tcp9100": "connect timeout",
+    "web": "timeout"
+  }
+}

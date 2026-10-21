@@ -1,0 +1,511 @@
+{
+  "versions": {
+    "python": "3.11.16",
+    "Pillow": "9.5.0",
+    "brother_ql": "0.9.4",
+    "packbits": "0.6"
+  },
+  "fixtures": [
+    {
+      "input": "blank-10.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "blank-10.default.bin",
+      "sha256": "ee8b1a64094574aa9a4553f2cfae7b72b7f0fcdfb5ac2ff79c7e4581e57a7f35",
+      "bytes": 1174
+    },
+    {
+      "input": "blank-10.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "cut": false
+      },
+      "output": "blank-10.nocut.bin",
+      "sha256": "00be264eff6e3df67f5f25546538c25ada7c874a6b53c293fd8143f2ef29b2a4",
+      "bytes": 1166
+    },
+    {
+      "input": "blank-10.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "blank-10.compress.bin",
+      "sha256": "8dd27241e7e0c31651ad14fed3afaa2c01dd18cccebe2cada3c3c40f43c3dea7",
+      "bytes": 296
+    },
+    {
+      "input": "blank-10.png",
+      "options": {
+        "label": "62red",
+        "model": "QL-810W",
+        "dither": false,
+        "red": true
+      },
+      "output": "blank-10.blackred.bin",
+      "sha256": "8b2a13a9f30038302409ac997e2b3b83e74bb61937954597f9bce1fcef93f79c",
+      "bytes": 2104
+    },
+    {
+      "input": "solid-10.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "solid-10.default.bin",
+      "sha256": "de79b2f6760c3324af5549c84b0b04ae0434c2c9c61ac56eddb17dae03e2acbf",
+      "bytes": 1174
+    },
+    {
+      "input": "solid-10.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "cut": false
+      },
+      "output": "solid-10.nocut.bin",
+      "sha256": "4075c8143ed93576aeb170195b64781054371619b0829ac60eafa599b636c6a0",
+      "bytes": 1166
+    },
+    {
+      "input": "solid-10.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "solid-10.compress.bin",
+      "sha256": "01a862c5cec0242f398a6263dd28d2c60f55978f44fcad539b1c220eb2d0ab0d",
+      "bytes": 356
+    },
+    {
+      "input": "solid-10.png",
+      "options": {
+        "label": "62red",
+        "model": "QL-810W",
+        "dither": false,
+        "red": true
+      },
+      "output": "solid-10.blackred.bin",
+      "sha256": "08e0f1802e6e59de96f9b2a2c44efc0885499706b89fef17c806aeee788298d2",
+      "bytes": 2104
+    },
+    {
+      "input": "border-40.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "border-40.default.bin",
+      "sha256": "2b69fc66f6d6bc7d0ee81e8adb65c36522194b571add9237821daf4539eca426",
+      "bytes": 3964
+    },
+    {
+      "input": "border-40.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "cut": false
+      },
+      "output": "border-40.nocut.bin",
+      "sha256": "8e69711243ca72e52bbf9d09d15a08fc9d65463e1686a14e7c8d6f51307eacfa",
+      "bytes": 3956
+    },
+    {
+      "input": "border-40.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "border-40.compress.bin",
+      "sha256": "1b6edd17807ba5ab9d968046c0332db86e3879c1293c1e44c8b32066232f22fb",
+      "bytes": 686
+    },
+    {
+      "input": "border-40.png",
+      "options": {
+        "label": "62red",
+        "model": "QL-810W",
+        "dither": false,
+        "red": true
+      },
+      "output": "border-40.blackred.bin",
+      "sha256": "c61ae547c47468d4190f09a94b9b81836cd64711c1f4bc036618161058c26a44",
+      "bytes": 7684
+    },
+    {
+      "input": "edge-columns-8.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "edge-columns-8.default.bin",
+      "sha256": "1ff78df4af74acb4d5e150d9413fd652ebdaef018a0f0913176a52d00bfc852b",
+      "bytes": 988
+    },
+    {
+      "input": "edge-columns-8.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "cut": false
+      },
+      "output": "edge-columns-8.nocut.bin",
+      "sha256": "ab350fcb1484eba116a4864a46b31250f9f7078280d3ccb03ebc85ae13e84e10",
+      "bytes": 980
+    },
+    {
+      "input": "edge-columns-8.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "edge-columns-8.compress.bin",
+      "sha256": "5c3bf4bd643eb5027b64e7e3c97aa4455c3bbb8523c80c7056f6ae4c61f5ddb2",
+      "bytes": 334
+    },
+    {
+      "input": "edge-columns-8.png",
+      "options": {
+        "label": "62red",
+        "model": "QL-810W",
+        "dither": false,
+        "red": true
+      },
+      "output": "edge-columns-8.blackred.bin",
+      "sha256": "d80cd42f2f816620f29465a31fd3ecdef47c910690962b178c588d59a06e42a9",
+      "bytes": 1732
+    },
+    {
+      "input": "single-row-1.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "single-row-1.default.bin",
+      "sha256": "e3f6f5fe5e7915e60f8a348c8e04b54116c578bc25eb3fdf3d1a282b9914ca04",
+      "bytes": 337
+    },
+    {
+      "input": "single-row-1.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "cut": false
+      },
+      "output": "single-row-1.nocut.bin",
+      "sha256": "88f7be28c4a0aa1d45fb2b487687b6972c0ec6eac6abb3d307a2209a13406be4",
+      "bytes": 329
+    },
+    {
+      "input": "single-row-1.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "single-row-1.compress.bin",
+      "sha256": "5653a35f0c2b00bb440b706f2884ce164fa8cf5dd5a92f88c70563b3bc7d0756",
+      "bytes": 255
+    },
+    {
+      "input": "single-row-1.png",
+      "options": {
+        "label": "62red",
+        "model": "QL-810W",
+        "dither": false,
+        "red": true
+      },
+      "output": "single-row-1.blackred.bin",
+      "sha256": "2834bd8190bd9edc9d63a5eac1e8d4d8f1747a5b87e7c8ea2ec91c35af2c1295",
+      "bytes": 430
+    },
+    {
+      "input": "checker-64.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "checker-64.default.bin",
+      "sha256": "352b81e5b4ee7affa0cd0b6664425f3d8d34d9874f075c172c54670297d54d6f",
+      "bytes": 6196
+    },
+    {
+      "input": "checker-64.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "cut": false
+      },
+      "output": "checker-64.nocut.bin",
+      "sha256": "490bbc2209533b9bfb3713b7eb798f6cc6be64133ee009569a1744f33dc64e51",
+      "bytes": 6188
+    },
+    {
+      "input": "checker-64.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "checker-64.compress.bin",
+      "sha256": "7a31f8427fbd2dc65767c4f4e257b8d62cc30387b06e6d1db7fb3686fd575658",
+      "bytes": 822
+    },
+    {
+      "input": "checker-64.png",
+      "options": {
+        "label": "62red",
+        "model": "QL-810W",
+        "dither": false,
+        "red": true
+      },
+      "output": "checker-64.blackred.bin",
+      "sha256": "9d89b564370dc66eb69172d1cea7807dd6f150558a75d6fee36d9d913823d341",
+      "bytes": 12148
+    },
+    {
+      "input": "tall-3000.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "tall-3000.default.bin",
+      "sha256": "5346fd8be4631fcb844bfde8ab98cefc865813d40473dc1167a5a4e1b9920293",
+      "bytes": 279244
+    },
+    {
+      "input": "tall-3000.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "cut": false
+      },
+      "output": "tall-3000.nocut.bin",
+      "sha256": "1c33a0c7f507d600b6b74c6bc35c1d894c08a08b6add4b4f0d0ce217258ac0a0",
+      "bytes": 279236
+    },
+    {
+      "input": "tall-3000.png",
+      "options": {
+        "label": "62",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "tall-3000.compress.bin",
+      "sha256": "6847530ab8b013f26d49136a845004019a6271b18212eeec1e46cac151c51537",
+      "bytes": 15606
+    },
+    {
+      "input": "tall-3000.png",
+      "options": {
+        "label": "62red",
+        "model": "QL-810W",
+        "dither": false,
+        "red": true
+      },
+      "output": "tall-3000.blackred.bin",
+      "sha256": "743ad974077e2055ac609905fb344edeef96dbe7cb811b6f201c059c24e171fd",
+      "bytes": 558244
+    },
+    {
+      "input": "border-29mm.png",
+      "options": {
+        "label": "29",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "border-29mm.default.29mm.bin",
+      "sha256": "e36a5888ea89abd18d988c8ce14d03319c4abb34af1babdba01f0bf95fb087e4",
+      "bytes": 3964
+    },
+    {
+      "input": "border-29mm.png",
+      "options": {
+        "label": "29",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "border-29mm.compress.29mm.bin",
+      "sha256": "3c19a44aaa82d32efb428912100c07d6176206aa7644c94803fb0fb723db7059",
+      "bytes": 682
+    },
+    {
+      "input": "checker-29mm.png",
+      "options": {
+        "label": "29",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "checker-29mm.default.29mm.bin",
+      "sha256": "ba189d77e0851542487deff8108e5e8b5439ab6d9d7566390df6b5f842b36c2e",
+      "bytes": 2476
+    },
+    {
+      "input": "checker-29mm.png",
+      "options": {
+        "label": "29",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "checker-29mm.compress.29mm.bin",
+      "sha256": "056092fe8e7e22be7ba619845356591fe208bbda44bd0c7c438e7703a1d8f6fa",
+      "bytes": 462
+    },
+    {
+      "input": "edge-columns-29mm.png",
+      "options": {
+        "label": "29",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "edge-columns-29mm.default.29mm.bin",
+      "sha256": "aa9584a930b794dcd2e0f32b4782c80e12300895378462f0d38c27d665a82f2c",
+      "bytes": 988
+    },
+    {
+      "input": "edge-columns-29mm.png",
+      "options": {
+        "label": "29",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "edge-columns-29mm.compress.29mm.bin",
+      "sha256": "3cfa059e9c3186157b88ef93bc8b6eab729da6cdff92c4faa4f748bc4a2f75c7",
+      "bytes": 334
+    },
+    {
+      "input": "border-12mm.png",
+      "options": {
+        "label": "12",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "border-12mm.default.12mm.bin",
+      "sha256": "23f74f06f2e7892e7a7eb5784c597b39d4ce847eaf8240453a33e153943eca57",
+      "bytes": 3964
+    },
+    {
+      "input": "border-12mm.png",
+      "options": {
+        "label": "12",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "border-12mm.compress.12mm.bin",
+      "sha256": "e06c4a8ca24888f2f42a245cbccc4c6bd68d08e59ccb9c602b7aeb4b82d42fec",
+      "bytes": 766
+    },
+    {
+      "input": "checker-12mm.png",
+      "options": {
+        "label": "12",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "checker-12mm.default.12mm.bin",
+      "sha256": "7d5d4e4cace0f745522ef9e873da70fe2757ca5cdd5f5ba8155eb5981c5e08c7",
+      "bytes": 2476
+    },
+    {
+      "input": "checker-12mm.png",
+      "options": {
+        "label": "12",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "checker-12mm.compress.12mm.bin",
+      "sha256": "f736b808ee4f5d888a0f4ea04fef4612bca24257d49ec9682b8f657df3139b5e",
+      "bytes": 534
+    },
+    {
+      "input": "edge-columns-12mm.png",
+      "options": {
+        "label": "12",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "edge-columns-12mm.default.12mm.bin",
+      "sha256": "4db6289ddbbbb86a914a0d4039a46d959b22a627054904e295194d3e4b452b6f",
+      "bytes": 988
+    },
+    {
+      "input": "edge-columns-12mm.png",
+      "options": {
+        "label": "12",
+        "model": "QL-810W",
+        "dither": false,
+        "compress": true
+      },
+      "output": "edge-columns-12mm.compress.12mm.bin",
+      "sha256": "66f85d5653002d3205adc5345b281a0736f9a65af51f2f65dd943042dd707d4c",
+      "bytes": 350
+    },
+    {
+      "input": "border-die-cut.png",
+      "options": {
+        "label": "62x29",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "border-die-cut.default.62mmx29mm.bin",
+      "sha256": "7f1c5ffcb039d1325cd1fc79b4f049b69c962179b34496f20378a990c9929ce7",
+      "bytes": 25447
+    },
+    {
+      "input": "checker-die-cut.png",
+      "options": {
+        "label": "62x29",
+        "model": "QL-810W",
+        "dither": false
+      },
+      "output": "checker-die-cut.default.62mmx29mm.bin",
+      "sha256": "24aa09befb205fd93c3ed5c33e0564b80b9738bd98875682f65e6c2acdc3f41e",
+      "bytes": 25447
+    },
+    {
+      "input": "black-and-red.png",
+      "options": {
+        "label": "62red",
+        "model": "QL-810W",
+        "dither": false,
+        "red": true
+      },
+      "output": "black-and-red.red.bin",
+      "sha256": "6000617a9ff6ca2f783e4fc7515b2118a9a84c2a7b7bfa10e26bae338bdb065d",
+      "bytes": 11404
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "printer": "QL-810W",
+  "captured": "2026-10-13",
+  "source": "SNMPv1 public + web /general/status.html",
+  "state": "job-refused",
+  "note": "A one-color job sent with the DK-22251 black/red roll loaded. Delivered (connection closed normally), nothing printed, red light blinking. Opening the cover did not clear it; power off and on did, and the job was discarded.",
+  "values": {
+    "hrDeviceStatus": 5,
+    "hrPrinterStatus": 1,
+    "hrPrinterDetectedErrorState": "00",
+    "prtAlertDescription.1": "",
+    "prtConsoleDisplayBuffer": "ERROR           ",
+    "prtCoverStatus.1": 4,
+    "prtInputStatus.1": 0,
+    "prtMarkerStatus": 0,
+    "web.DeviceStatus": "ERROR",
+    "web.Media": [
+      "Not Empty",
+      "62mm / 2.4\""
+    ]
+  }
+}

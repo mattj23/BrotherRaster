@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <RollForward>Major</RollForward>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>brother-raster</ToolCommandName>
+    <PackageId>BrotherRaster.Cli</PackageId>
+    <AssemblyName>brother-raster</AssemblyName>
+    <Description>Command-line tool for Brother QL and P-touch label printers on the network: read status (model, media, tape colors), print a PNG, a text label or a test pattern, and decode captured raster jobs.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../BrotherRaster/BrotherRaster.csproj" />
+    <ProjectReference Include="../BrotherRaster.Skia/BrotherRaster.Skia.csproj" />
+  </ItemGroup>
+
+</Project>

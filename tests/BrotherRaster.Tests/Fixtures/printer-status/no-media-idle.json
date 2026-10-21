@@ -1,0 +1,22 @@
+{
+  "printer": "QL-810W fw 1.22",
+  "captured": "2026-09-25",
+  "source": "SNMPv1 public + web /general/status.html",
+  "state": "no-media-idle",
+  "note": "Roll removed, cover closed. Display still READY and error bits clear; only prtInputStatus (19) and web 'Media Status Empty' reveal it.",
+  "values": {
+    "hrDeviceStatus": 2,
+    "hrPrinterStatus": 3,
+    "hrPrinterDetectedErrorState": "00",
+    "prtAlertDescription.1": "",
+    "prtConsoleDisplayBuffer": "READY           ",
+    "prtCoverStatus.1": 4,
+    "prtInputStatus.1": 19,
+    "prtMarkerStatus": 0,
+    "web.DeviceStatus": "READY",
+    "web.Media": [
+      "Empty",
+      ""
+    ]
+  }
+}

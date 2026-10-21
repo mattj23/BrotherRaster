@@ -1,0 +1,22 @@
+{
+  "printer": "QL-810W fw 1.22",
+  "captured": "2026-09-25",
+  "source": "SNMPv1 public + web /general/status.html",
+  "state": "no-media-after-job",
+  "note": "After a job is sent with no media: ERROR, noPaper bit (0x40), orange LED flashing. Job is held and printed once a roll is loaded and the cover closed.",
+  "values": {
+    "hrDeviceStatus": 5,
+    "hrPrinterStatus": 1,
+    "hrPrinterDetectedErrorState": "40",
+    "prtAlertDescription.1": "",
+    "prtConsoleDisplayBuffer": "ERROR           ",
+    "prtCoverStatus.1": 4,
+    "prtInputStatus.1": 19,
+    "prtMarkerStatus": 0,
+    "web.DeviceStatus": "ERROR",
+    "web.Media": [
+      "Empty",
+      ""
+    ]
+  }
+}

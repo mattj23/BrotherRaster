@@ -1,0 +1,23 @@
+{
+  "printer": "QL-810W fw 1.22",
+  "captured": "2026-09-25",
+  "source": "SNMPv1 public + web /general/status.html",
+  "state": "ready",
+  "note": "Jobs print; printer closes the TCP connection ~0.2-1 s after the job is sent.",
+  "values": {
+    "hrDeviceStatus": 2,
+    "hrPrinterStatus": 3,
+    "hrPrinterDetectedErrorState": "00",
+    "prtAlertDescription.1": "",
+    "prtConsoleDisplayBuffer": "READY           ",
+    "prtCoverStatus.1": 4,
+    "prtInputStatus.1": 0,
+    "prtMarkerStatus": 0,
+    "web.DeviceStatus": "READY",
+    "web.Media": [
+      "Not Empty",
+      "62mm / 2.4\""
+    ],
+    "prtInputMediaName": "62mm / 2.4\""
+  }
+}

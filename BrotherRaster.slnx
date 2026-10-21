@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BrotherRaster/BrotherRaster.csproj" />
+    <Project Path="src/BrotherRaster.Skia/BrotherRaster.Skia.csproj" />
+    <Project Path="src/BrotherRaster.Cli/BrotherRaster.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BrotherRaster.Tests/BrotherRaster.Tests.csproj" />
+  </Folder>
+</Solution>

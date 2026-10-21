@@ -1,0 +1,22 @@
+{
+  "printer": "QL-810W fw 1.22",
+  "captured": "2026-09-25",
+  "source": "SNMPv1 public + web /general/status.html",
+  "state": "cover-open",
+  "note": "Job sent in this state is ACCEPTED (connection closes normally), held, and printed when the cover is closed.",
+  "values": {
+    "hrDeviceStatus": 5,
+    "hrPrinterStatus": 1,
+    "hrPrinterDetectedErrorState": "08",
+    "prtAlertDescription.1": "",
+    "prtConsoleDisplayBuffer": "COVER OPEN      ",
+    "prtCoverStatus.1": 3,
+    "prtInputStatus.1": 0,
+    "prtMarkerStatus": 0,
+    "web.DeviceStatus": "COVER OPEN",
+    "web.Media": [
+      "Not Empty",
+      "62mm / 2.4\""
+    ]
+  }
+}
