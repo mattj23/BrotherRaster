@@ -87,7 +87,7 @@ With no `--ql` or `--pt`, the tool asks the printer what is loaded.
   two-color job on plain tape) leaves the printer in ERROR with the red light blinking. Only switching it
   off and on clears that, and the job is lost. Send black/red rolls `TwoColor = true`.
 
-See [docs/hardware.md](docs/hardware.md) for what has been verified on which printer.
+See [docs/hardware.md](https://github.com/mattj23/BrotherRaster/blob/main/docs/hardware.md) for what has been verified on which printer.
 
 ## What has been verified
 

@@ -20,4 +20,12 @@
     <ProjectReference Include="../BrotherRaster.Skia/BrotherRaster.Skia.csproj" />
   </ItemGroup>
 
+  <!-- SkiaSharp ships ~100 MB native PDBs per Windows architecture; leave them out of the tool package
+       so it stays under nuget.org's 250 MB limit. -->
+  <Target Name="DropNativeSymbolsFromPublish" AfterTargets="ComputeResolvedFilesToPublishList">
+    <ItemGroup>
+      <ResolvedFileToPublish Remove="@(ResolvedFileToPublish)" Condition="'%(Extension)' == '.pdb' And $([System.String]::new('%(RelativePath)').StartsWith('runtimes'))" />
+    </ItemGroup>
+  </Target>
+
 </Project>
